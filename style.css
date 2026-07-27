@@ -244,6 +244,13 @@ a {
     transition: all 0.3s ease;
 }
 
+.social-icon svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
 .social-icon:hover {
     background: var(--accent);
     color: #fff;
