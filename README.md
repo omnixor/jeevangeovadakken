@@ -1,19 +1,19 @@
 # Jeevan Geo Vadakken — Portfolio
 
-Personal portfolio built with React, TanStack Start, and Vite.
+Personal portfolio built with React, TanStack Router, and Vite for GitHub Pages.
 
-## Development
+## Local development
 
 ```sh
 npm ci
 npm run dev
 ```
 
-## Validation and build
+## Build and validation
 
 ```sh
 npm run lint
 npm run build
 ```
 
-The production build uses Nitro's Cloudflare preset. It needs a compatible Cloudflare deployment; it is not a static GitHub Pages build.
+The GitHub Actions workflow builds the static site with the repository base path and deploys `dist` to GitHub Pages whenever `main` is updated. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.

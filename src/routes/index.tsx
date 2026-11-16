@@ -13,24 +13,6 @@ import { Button } from "@/components/ui/button";
 import profile from "@/assets/profile.png";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Jeevan Geo Vadakken — Curious mind. Careful builder." },
-      {
-        name: "description",
-        content:
-          "CSE student from Kerala building thoughtful software across systems and information security.",
-      },
-      { property: "og:title", content: "Jeevan Geo Vadakken — Portfolio" },
-      {
-        property: "og:description",
-        content:
-          "Curious mind. Careful builder. Software, systems and security from Kerala, India.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-  }),
   component: Index,
 });
 
